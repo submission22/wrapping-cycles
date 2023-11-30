@@ -2,7 +2,7 @@
 
 The code in this repository can be used to produce the most persistent features of the Delaunay filtration associated to a point cloud as PLY files.
 
-The implementation uses the [Gudhi](https://gudhi.inria.fr) library to compute the Delaunay filtration and a modification of the software [Infiltrator](https://github.com/Ripser/ripser/tree/filtration) to compute the  totally reduced filtration boundary matrix.
+The implementation uses the [Gudhi](https://gudhi.inria.fr) library to compute the Delaunay filtration, and a modification of the software [Infiltrator](https://github.com/Ripser/ripser/tree/filtration) to compute the  totally reduced filtration boundary matrix.
 
 
 The included Dockerfile can be used to apply the pipeline to selected 3D scan point clouds (Stanford Bunny in two different resolutions, Dragon, Happy Buddha) from the [Stanford 3D Scanning Repository](http://graphics.stanford.edu/data/3Dscanrep/).
