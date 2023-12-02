@@ -9,7 +9,7 @@ The included Dockerfile can be used to apply the pipeline to selected 3D scan po
 Simply execute the command 
 
 ```sh
-$ docker build -o output github.com/submission22/wrap-flow-red
+$ docker build -o output github.com/submission22/wrapping-cycles
 ```
 
 on any machine with sufficient memory and Docker installed. The output is saved to the `output/` folder in the current working directory and contains the original PLY files, as well as the three most persistent features of each 3D scan point cloud. Note that the file names contain the corresponding death/birth ratios.
